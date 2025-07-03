@@ -1,4 +1,5 @@
-﻿# Datei als Array einlesen und zeilenweise abarbeiten
+# Demo branches
+ # Datei als Array einlesen und zeilenweise abarbeiten
 # WICHTIG: CSV-Datei muss im UTF-8 Format gespeichert sein oder der Parameter -Encoding muss angegeben werden
 $SkriptOrdner = Split-Path $MyInvocation.MyCommand.Path -Parent
 $Datei = Import-Csv "$SkriptOrdner\GecsBenutzer.csv"
